@@ -13,6 +13,7 @@ To assist code reuse, this project has been broken into many sub-repositories.
 
 - shared dependencies:
   - [kblocks](https://github.com/jackd/kblocks): dependency-injectable keras blocks
+  - [meta-model](https://github.com/jackd/meta-model): framework for building multiple networks simultaneously for models with architecture-dependent data pipelining
   - [tfrng](https://github.com/jackd/tfrng): a uniform interface for tensorflow random number generation implementations and custom dataset map implementation
   - [wtftf](https://github.com/jackd/wtftf): keras layer wrappers that will be removed once a stable tensorflow 2.4 is released
 - Point convolution specific:
